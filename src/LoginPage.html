@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="LoginPage.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body class="noselect keepAnimResult">
+
+    <div id="loginLinkContainer">
+        <div id="kanjiContainer">
+            <div class="word keepAnimResult">
+                <div>
+                    <svg>
+                        <use xlink:href="./Content/yo.svg#target"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="word keepAnimResult">
+                <div>
+                    <svg>
+                        <use xlink:href="./Content/ro.svg#target"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="word keepAnimResult">
+                <div>
+                    <svg>
+                        <use xlink:href="./Content/shi.svg#target"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="word keepAnimResult">
+                <div>
+                    <svg>
+                        <use xlink:href="./Content/ku.svg#target"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div id="englishContainer" class="keepAnimResult">
+            <span>Log</span><span>in</span><span>to</span><span>discord</span>
+        </div>
+    </div>
+    <span id="informativeText" class="keepAnimResult">※ The English text is not a translation of the Kanji</span>
+
+    <script type="text/javascript">
+	
+		// Add a class to the link container to denote when the animation is finished to enable link action and hover effects
+        setTimeout(function() {
+			const loginLinkContainer = document.getElementById("loginLinkContainer");
+            loginLinkContainer.className = "animationFinished";
+			loginLinkContainer.onclick = function() {
+				alert("This is just a preview! When the site is done, you will be redirected to a login page.");
+			};
+        }, 4000);
+		
+    </script>
+
+</body>
+<html>
