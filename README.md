@@ -4,7 +4,7 @@ A sample fully responsive, animated front page/login screen using pure CSS3. Tak
 
 ## Installation
 
-Simply clone or download the repository and run `src/LoginPage.html`.
+No installation is needed; you can view the animation at https://hjklqw.github.io/CSS3-Animation-Demo/, or simply clone or download the repository and run `index.html`.
 
 ## Features
 
